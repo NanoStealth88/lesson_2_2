@@ -65,5 +65,26 @@ fn main() {
 
     println!("The maximum number in f32 is {}", std::f32::MAX);
 
+    //--------------------------------
+    //          Boolean
+    //--------------------------------
+
+    let status: bool = false;
+    println!("The values of some of our variables are {:?}", (x,y,my_pi,status));   //including the variables together inside () allow them to be displayed together
+
+    let not_equals: bool = 18 != 18;    // can use >, <, <=, >= operators as well
+    println!("The value of condition 18 != 18 is {}", not_equals);
+
+    //-------------------------------
+    //      Characters
+    //------------------------------
+
+    let c1 = 'a';
+    let c2 = '3';
+    let c3 = '+';
+    let c4 = '\u{288A}';
+    let c5 = '\"';
+
+    println!("The value of c1 = {}, c2 = {}, c3 = {}, c4 = {}, and c5 = {}", c1,c2,c3,c4,c5);
 
 }
