@@ -2,6 +2,7 @@ fn main() {
     
      /* ---------------------------------
                 VARIABLES IN RUST
+                    This lesson covers the basics of variables, their sizes and some general rules
      -----------------------------------*/
 
     //let x:i64 = 15;     // variable is immutable and can only be a letter or an underscore.  This appears to be like a const in c++
